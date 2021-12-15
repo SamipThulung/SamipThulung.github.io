@@ -649,7 +649,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  min-height: 200px;
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -700,7 +700,7 @@ section {
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
-  bottom: -20px;
+  bottom: 0px;
   left: calc(50% - 20px);
 }
 .testimonials .swiper-pagination {
