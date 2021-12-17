@@ -36,13 +36,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<script src="assets/jquery/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-
+<div id="loading">
+  <img id="loading-image" src="assets/img/load.gif" alt="Loading..." />
+</div>
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -699,7 +701,11 @@
           + "&body=" + encodeURIComponent(name+yourMessage);
   }
 </script>
-
+<script>
+  $(window).on('load', function () {
+    $('#loading').hide();
+  }) 
+</script>
 </body>
 
 </html>
