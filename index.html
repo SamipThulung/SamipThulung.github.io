@@ -139,37 +139,171 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Facts</h2>
-          <p>My responsibilities on the projects include preparing dataset, researching | designing model architecture, training and deploying model, and optimizing computation for inferences.</p>
+          <h2>Portfolio </h2>
+
+          <p>CV projects: Face recognition, face detection, people tracking and gender classification <br>
+            NLP projects: Noise Cancellation, Chatbot and music generation. <br>
+            Devices: Edge devices, IP cams, USB cam, audio drivers. <br>
+            Others: Recommendation system, Inter of Things (IoT)<br>
+
+          <p>Here are some of the projects demo</p>
+          <strong><em>(Please reload if "+"" and "detail" buttons dont appear on hover)</em></strong>
+          </p>
         </div>
 
-        <div class="row no-gutters">
 
-          <!-- <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div> -->
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-cv">Computer Vision</li>
+              <li data-filter=".filter-nlp">NLP</li>
+              <li data-filter=".filter-ac">Accolades</li>
+            </ul>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> CV, NLP, Sequece Models</p>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              
+              <img src="assets/img/portfolio/gengif.gif" alt="demo" class="img-fluid">
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/gengif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Stable Diffusion Model"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-8.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
             </div>
+            <header><u><b><a href="portfolio-details-8.html" style="color:inherit; text-decoration:none;">Face generation, Diffusion Model</a></b></u></header><br>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              <video  autoplay loop muted src="assets/img/portfolio/rlarcade.mp4" class="img-fluid"></video>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rlarcade.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Stable Diffusion Model"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-9.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-9.html" style="color:inherit; text-decoration:none;">Arcade Games, RL model</a></b></u></header><br>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
+            <div class="portfolio-wrap">
+              
+              <video  autoplay loop muted src="assets/img/portfolio/transformers.mp4" class="img-fluid"></video>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/transformers.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Stable Diffusion Model"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-10.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-10.html" style="color:inherit; text-decoration:none;">Lyrics Generation, Transformer</a></b></u></header><br>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              
+              <video  autoplay loop muted src="assets/img/portfolio/portfolio-1.mp4" class="img-fluid"></video>
+    
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face detection and gender detection"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-1.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-1.html" style="color:inherit; text-decoration:none;">Gender Detection, CNN based detector</a></b></u></header><br>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
+            <div class="portfolio-wrap">
+
+              <video  autoplay loop muted playsinline src="assets/img/portfolio/chat.mp4" class="img-fluid"></video>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/chat.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chatbot: Takes order for a pizza"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-5.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-5.html" style="color:inherit; text-decoration:none;">Chatbot before 2018, Entity Recognition</a></b></u></header><br>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              
+              <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face detection and recognition"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-2.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-2.html" style="color:inherit; text-decoration:none;">Attendance system, YOLO and Siamese</a></b></u></header><br>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
+            <div class="portfolio-wrap">
+              <video width="400" controls>
+                <source src="assets/img/portfolio/noise.mp4" type="video/mp4">
+              </video>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/noise.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Noise Cancellation (Demo): Collegue reading from a medium article on Google Meet. The audio signal goes through our Audio driver where the noise are cancelled and sent to the receiver end of the google meet."><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-4.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-4.html" style="color:inherit; text-decoration:none;">Noise Cancellation, ANN</a></b></u></header><br>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
+            <div class="portfolio-wrap">
+              <video width="400" controls>
+                <source src="assets/img/portfolio/beethoven.mp4" type="video/mp4">
+              </video>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/beethoven.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Music Composition: Model learned to compose music after training on a classical Beethoven musical piece"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-6.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-6.html" style="color:inherit; text-decoration:none;">Music Generation, RNN</a></b></u></header><br>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Landmark detection"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-3.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-3.html" style="color:inherit; text-decoration:none;">Landscape detection, Attension Aware CNN</a></b></u></header><br>
+          </div>
+
+          
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ac">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/51019929_1234207853402005_4238083933087989760_n.webp" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/51019929_1234207853402005_4238083933087989760_n.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Memory lanes"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-7.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <header><u><b><a href="portfolio-details-7.html" style="color:inherit; text-decoration:none;">Memory lane</a></b></u></header><br>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -301,8 +435,19 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
+              <h4>(Lead) ML Engineer</h4>
+              <h5>Sep 2023 - Present</h5>
+              <p><em>Red Dot Drone, Osaka, Japan </em></p>
+              <ul>
+                <li>proposal, develepment and deployment of AI systems in Sports analytics</li>
+                <li>Handle all aspect of AI system development </li>
+                <li>Autonomous flights system development.</li>
+                
+              </ul>
+            </div>
+            <div class="resume-item">
               <h4>(Senior) ML Engineer</h4>
-              <h5>Apr 2020 - Present</h5>
+              <h5>Apr 2020 - Mar 2023</h5>
               <p><em>Chulo Solutions, Kathmandu, Nepal </em></p>
               <ul>
                 <li>Lead in the ML development team</li>
@@ -352,132 +497,10 @@
 
       </div>
     </section><!-- End Resume Section -->
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7218640724123123715?collapsed=1" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
 
-        <div class="section-title">
-          <h2>Portfolio </h2>
-
-          <p>CV projects: Face recognition, face detection, people tracking and gender classification <br>
-            NLP projects: Noise Cancellation, Chatbot and music generation. <br>
-            Devices: Edge devices, IP cams, USB cam, audio drivers. <br>
-            Others: Recommendation system, Inter of Things (IoT)<br>
-
-          <p>Here are some of the projects demo</p>
-          <strong><em>(Please reload if "+"" and "detail" buttons dont appear on hover)</em></strong>
-          </p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-cv">Computer Vision</li>
-              <li data-filter=".filter-nlp">NLP</li>
-              <li data-filter=".filter-ac">Accolades</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
-            <div class="portfolio-wrap">
-              <video  autoplay loop muted src="assets/img/portfolio/portfolio-1.mp4" class="img-fluid"></video>
     
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face detection and gender detection"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-1.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div> -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
-            <div class="portfolio-wrap">
-              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7218640724123123715?collapsed=1" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face detection and gender detection"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-1.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
-            <div class="portfolio-wrap">
-              <video  autoplay loop muted playsinline src="assets/img/portfolio/chat.mp4" class="img-fluid"></video>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/chat.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chatbot: Takes order for a pizza"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-5.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Face detection and recognition"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-2.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
-            <div class="portfolio-wrap">
-              <video width="400" controls>
-                <source src="assets/img/portfolio/noise.mp4" type="video/mp4">
-              </video>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/noise.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Noise Cancellation (Demo): Collegue reading from a medium article on Google Meet. The audio signal goes through our Audio driver where the noise are cancelled and sent to the receiver end of the google meet."><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-4.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-nlp">
-            <div class="portfolio-wrap">
-              <video width="400" controls>
-                <source src="assets/img/portfolio/beethoven.mp4" type="video/mp4">
-              </video>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/beethoven.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Music Composition: Model learned to compose music after training on a classical Beethoven musical piece"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-6.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cv">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Landmark detection"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-3.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          
-
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ac">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/51019929_1234207853402005_4238083933087989760_n.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/51019929_1234207853402005_4238083933087989760_n.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Memory lanes"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details-7.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -619,7 +642,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Kathmandu, Nepal</p>
+                <p>Osaka, Japan</p>
               </div>
 
               <div class="email">
@@ -631,10 +654,11 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+977 9803562153</p>
+                <p>+81 09020233021</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14127.236875746099!2d85.35106662550002!3d27.723176169109706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bdb45cbc593%3A0x2d0d68684b1d03ab!2sBoudhha%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1639587363861!5m2!1sen!2snp" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16719.228010071132!2d135.47988302324146!3d34.61212084171239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c2a81098aae5%3A0xba00afff57e32edd!2sSuminoe%20Ward%2C%20Osaka!5e1!3m2!1sen!2sjp!4v1773812776780!5m2!1sen!2sjp" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy"></iframe>
+
             </div>
 
           </div>
